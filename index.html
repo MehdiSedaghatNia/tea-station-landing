@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Grand Hotel & Catamaran Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Grand+Hotel&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Tea Station</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="site-nav"></nav>
+
+    <main>
+      <!-- Hero -->
+      <section>
+        <div class="hero">
+          <div class="wrapper hero-content">
+            <p class="sub-title">Over One Hundred Flavors Of</p>
+            <h1 class="title">
+              Specially <br />
+              Crafted Tea
+            </h1>
+            <a href="#" class="hero-btn">Explore</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Skills -->
+      <section class="skills">
+        <!-- 4cards -->
+        <div class="grid-equal-cols" data-gap="none">
+          <div class="card">
+            <span class="card-icon">
+              <i class="fas fa-mug-hot"></i>
+            </span>
+            <h4 class="card-title">Made In US</h4>
+            <p>
+              Our teas are sourced from American farms, supporting local
+              agriculture and ensuring the freshest leaves reach your cup.
+            </p>
+          </div>
+          <div class="card">
+            <span class="card-icon">
+              <i class="fas fa-glass-cheers"></i>
+            </span>
+            <h4 class="card-title">Relaxation</h4>
+            <p>
+              Each sip is crafted to calm your mind and soothe your senses,
+              transforming tea time into a peaceful ritual.
+            </p>
+          </div>
+          <div class="card">
+            <span class="card-icon">
+              <i class="fas fa-bomb"></i>
+            </span>
+            <h4 class="card-title">Energy</h4>
+            <p>
+              Experience a natural boost with our carefully selected tea blends,
+              perfect for your morning start or afternoon revival.
+            </p>
+          </div>
+          <div class="card">
+            <span class="card-icon">
+              <i class="fas fa-mortar-pestle"></i>
+            </span>
+            <h4 class="card-title">Family Recipe</h4>
+            <p>
+              Brewed from a century-old recipe passed down through generations,
+              preserving authentic flavor and tradition..
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- about us -->
+      <section class="section" data-padding-block="large">
+        <div class="wrapper">
+          <div class="grid-equal-cols" data-gap="large">
+            <!-- kettle img -->
+            <div class="about-img-container">
+              <img
+                class="about-img"
+                src="./assets/about-bcg.jpeg"
+                alt="kettle img"
+              />
+            </div>
+            <!-- content -->
+            <div class="flex-dir-col about-content">
+              <p class="section-subtitle">About Our</p>
+              <h2 class="section-title">Tea Station</h2>
+              <p>
+                We are a family-owned tea company crafting premium blends since
+                2010. Our passion is bringing exceptional tea experiences to
+                every home.
+              </p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- products -->
+      <section class="section products" data-padding-block="large">
+        <div class="wrapper">
+          <div class="products-container">
+            <!-- content -->
+            <div class="flex-dir-col">
+              <p class="section-subtitle">Check Out</p>
+              <h3 class="section-title">Our Products</h3>
+              <p class="product-info">
+                We are a family-owned tea company crafting premium blends since
+                2010. Our passion is bringing exceptional tea experiences to
+                every home and community we serve.
+              </p>
+              <a href="#" class="btn">Inventory</a>
+            </div>
+
+            <!-- 3cards -->
+
+            <div class="card">
+              <img src="./assets/product-1.jpeg" alt="Tea img" />
+              <h4 class="card-title">Ginger Peach Tea</h4>
+              <p class="card-price">$6.99</p>
+            </div>
+            <div class="card">
+              <img src="./assets/product-2.jpeg" alt="Tea img" />
+              <h4 class="card-title">Fruit Sangria</h4>
+              <p class="card-price">$9.99</p>
+            </div>
+            <div class="card">
+              <img src="./assets/product-3.jpeg" alt="Tea img" />
+              <h4 class="card-title">White Tea</h4>
+              <p class="card-price">$3.99</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- services -->
+      <section class="section services">
+        <div class="wrapper">
+          <!-- content -->
+          <div class="section-heading">
+            <p class="section-subtitle">Explore</p>
+            <h2 class="section-title">Our Services</h2>
+          </div>
+
+          <!-- 3cards -->
+          <div class="grid-equal-cols">
+            <div class="card">
+              <img src="./assets/product-1.jpeg" alt="tea img" />
+              <div class="content">
+                <span class="card-icon">
+                  <i class="fas fa-mortar-pestle fa-fw"></i>
+                </span>
+                <h4 class="card-title">Many Recipes</h4>
+                <p>
+                  Create your unique tea blend with guidance from our master
+                  artisans.
+                </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/product-2.jpeg" alt="tea img" />
+              <div class="content">
+                <span class="card-icon">
+                  <i class="fas fa-home fa-fw"></i>
+                </span>
+                <h4 class="card-title">Home Delivery</h4>
+                <p>
+                  Fresh teas delivered monthly to your doorstep across the
+                  country.
+                </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/product-3.jpeg" alt="tea img" />
+              <div class="content">
+                <span class="card-icon">
+                  <i class="fas fa-mug-hot fa-fw"></i>
+                </span>
+                <h4 class="card-title">Tea Aging</h4>
+                <p>
+                  Premium teas properly stored and aged for optimal flavor
+                  development.
+                </p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contacts -->
+      <section class="section contact">
+        <div class="wrapper">
+          <div class="grid-equal-cols flow">
+            <!-- content -->
+            <div class="contact-info">
+              <div class="info-group">
+                <h4 class="info-title">
+                  <span class="contact-icon">
+                    <i class="fas fa-location-arrow"></i>
+                  </span>
+                  Address
+                </h4>
+                <h4>523 N Firfax, ave</h4>
+                <h4>Loas Angeles, CA 90048</h4>
+              </div>
+
+              <div class="info-group">
+                <h4 class="info-title">
+                  <span class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  Email
+                </h4>
+                <h4>email@email.com</h4>
+              </div>
+
+              <div class="info-group">
+                <h4 class="info-title">
+                  <span class="contact-icon">
+                    <i class="fa fa-phone"></i>
+                  </span>
+                  Telephone
+                </h4>
+                <h4>+ 123 456 789</h4>
+              </div>
+            </div>
+
+            <!-- form -->
+            <div class="form-container">
+              <form class="form">
+                <h4 class="form-title">Contact Us</h4>
+                <div class="inputs-group">
+                  <input type="text" placeholder="Name" />
+                  <input type="email" placeholder="Email" />
+                  <textarea placeholder="message"></textarea>
+                </div>
+                <a href="#" class="btn">Submit Here</a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <!-- social -->
+        <div class="social">
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+
+        <!-- rights -->
+
+        <h4 class="stoop">Falcon's Stoop</h4>
+        <p>&copy;2026 Tea Station. All Rights Reserved</p>
+      </footer>
+
+      <!--  -->
+    </main>
+  </body>
+</html>
