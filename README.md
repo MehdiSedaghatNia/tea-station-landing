@@ -1,4 +1,4 @@
-# furniture store
+# Tea Station
 A guided exercise project from "Udemy" by "John Smilga, CSS course".
 
 **Tech:** HTML, CSS
